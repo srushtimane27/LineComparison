@@ -10,6 +10,6 @@ public class LineComparison {
         line2.pointsInput();
 
         Line.compareByEquals(line1,line2);
-
+        Line.compareByCompareTo(line1,line2);
     }
 }
