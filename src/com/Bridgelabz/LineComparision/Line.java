@@ -25,15 +25,5 @@ public class Line {
             System.out.println("Line1 is not equal to Line2");
         }
     }
-    public static void compareByCompareTo(Line line1, Line line2){
-        Integer length1 = line1.getLengthOfLine();
-        Integer length2 = line2.getLengthOfLine();
-        if (length1.compareTo(length2) == 0){
-            System.out.println("Line1 is equal to Line2");
-        } else if (length1.compareTo(length2) == 1) {
-            System.out.println("Line1 is greater than Line2");
-        }else {
-            System.out.println("Line1 is less than Line2");
-        }
-    }
+
 }
